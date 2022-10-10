@@ -1,6 +1,6 @@
-## Push a commit you have made
+## Запушьте коммит которые у вас сейчас есть
 
-The first exercise is to push a commit that is created when you run the `git start` command.
+Первое задание - запушить коммиты которые создались когда вы написали `git start`.
 
-Just try `git verify` after you have initialized the exercises and be proud of passing the first one :-)
+Просто запустите `git verify` после того как вы начали первое задание и гордитесь что вы его выполнили :)
 

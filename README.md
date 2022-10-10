@@ -1,4 +1,4 @@
-## Change order of commits
-You have committed two changes but you don't like the order in which they appear in the history. Switch them.
+## Измените порядок коммитов
+Вы сделали два коммита, но вам не нравится порядок, в котором они появляются в истории. Поменяйте его.
 
-To show commits that needs switching, execute `git log -2` command.
+Чтобы показать коммиты, которые нужно поменять, выполните команду `git log -2`.

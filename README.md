@@ -1,8 +1,8 @@
-## Commit part of work
+## Закоммитить часть работы
 
-You are working on an issue for a long time and you noticed you have done too much. You want your work to be committed
-in two separate commits instead of one.
+Вы долгое время работаете над задачей и замечаете, что сделали слишком много. Вы хотите, чтобы ваша работа была
+закоммичена в двух разных коммитах, а не одним.
 
-Unfortunately, your changes involve only one file so it is impossible to `git add` different files separately.
+К сожалению, ваши изменения касаются только одного файла, поэтому невозможно просто сделать `git add` разных файлов по отдельности.
 
-Commit all new lines that contains "Task 1" phrase in the first commit and the rest of them in the second.
+Закоммитьте все новые строки, которые содержат фразу "Task 1" в первом коммите, а остальные во втором.

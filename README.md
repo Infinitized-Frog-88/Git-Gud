@@ -1,15 +1,20 @@
-## Saving your work
-You are working hard on a regular issue while your boss comes in and wants you to fix a bug. State of your current
-working area is a total mess so you don't feel comfortable with making a commit now. However, you need to fix the found
-bug ASAP.
+## Сохраняем нашу работу
 
-Git lets you to save your work *on a side* and continue it later. Find appropriate Git tool and use it to handle
-the situation appropriately.
+Представим ситуацию: дома вы сделали домашки по курсу "Введение в программирование": "Подсчёт слов" 
+а затем домашку "Свой сканнер". Первую вы закоммитили, а вторую не доделали и не закоммитили. Вы 
+приходите на пару и собираетесь записываться в очередь, как вдруг замечаете что в подсчёте слов 
+сделали багу за которую вам поставят три минуса. Вам нужно быстро исправить багу и сдать домашку 
+"Подсчёт слов", но текущее состояние вашего репозитория с незакоммиченными изменениями вы коммитить не хотите.
 
-Look for a bug to remove in `bug.txt`.
+Только сейчас ситуация учебная, а не игра на баллы, поэтому вместо домашки "Подсчёт слов" у вас файл bug.txt.
 
-After you commit the bugfix, get back to your work. Finish it by adding a new line to `bug.txt` with 
+Гит позволяет вам сохранить вашу работу *на стороне* и продолжить её позже. Найдите подходящий инструмент Гита и
+используйте его чтобы решить ситуацию.
 
-    Finally, finished it!
+Ищите багу в `bug.txt`.
 
-Then, commit your work after bugfix.
+После того как вы закоммитили исправление баги, вернитесь к своей работе. Закончите её добавив новую строку в `bug.txt` и закоммитив с сообщением
+
+    `Finally, finished it!`
+
+Затем, закоммитите свою работу после исправления баги.

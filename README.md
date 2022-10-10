@@ -1,6 +1,6 @@
-## Fix typographic mistake in old commit
-While you were working you noticed a typographic error in `file.txt` - you wrote `wordl` instead of `world`.
+## Исправьте опечатку в старом коппите
+Пока вы работали, вы заметили опечатку в `file.txt` - вы написали `wordl` вместо `world`.
 
-Unfortunately, you have made another commit on top of the typo so simple `git commit --amend` is not enough.
+К сожалению, вы сделали еще один коммит поверх опечатки, поэтому сделать `git commit --amend` недостаточно.
 
-Fix the typographic error by amending commit in history. Pay attention to the commit message, too!
+Исправьте опечатку, исправив коммит в истории. Так же обратите внимание на сообщение коммита.

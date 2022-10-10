@@ -1,13 +1,12 @@
-## Ignore unwanted files
+## Игнорирование файлов
 
-It is often good idea to tell Git which files it should track and which it should not. Developers almost always do not
-want to include generated files, compiled code or libraries into their project history.
+Зачастую бывает полезно сказать гиту, за какими файлами нужно следить, а за какими нет. Разработчики почти всегда не хотят включать в историю своего проекта сгенерированные файлы, скомпилированный код или библиотеки.
 
-Your task is to create and commit configuration that would ignore:
+Ваша задача настроить ваш репозиторий таким образом, чтобы игнорировались:
 
- * all files with `exe` extension
- * all files with `o` extension
- * all files with `jar` extension
- * the whole `libraries` directory
+ * все файлы с расширением `exe`
+ * все файлы с расширением `o`
+ * все файлы с расширением `jar`
+ * вся директория `libraries`
  
-Sample files are generated for you.
+Примеры файлов уже были сгенерированы.

@@ -1,7 +1,7 @@
-## Forge the commit's date
+## Подделайте дату коммита
 
-You should have finished your work a week ago. However, you had some more
-important things to do so you have committed the work just now.
+Вы должны были сделать домашку ещё неделю назад. Однако у вас были более
+важные дела, поэтому вы сделали коммит только что.
 
-As a git expert, change the date of the last commit. Don't be modest - make
-it look like it was committed in 1987!
+Как эксперт по git, измените дату последнего коммита. Не стесняйтесь -
+сделайте так, чтобы казалось, что он был сделан в 1987 году!

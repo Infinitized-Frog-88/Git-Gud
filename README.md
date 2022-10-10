@@ -1,11 +1,9 @@
-## Find a commit that has been lost
+## Найдите потерявшийся коммит
 
-You have created a commit with very important piece of work. You then wanted to fix something in the last commit
-so you have amended it. However, you have just realized you have accidentally committed the wrong changes and you
-desperately need the first version of the commit you have just amended.
+Вы создали коммит с очень важными изменениями. Затем вы захотели что-то исправить в этом коммите, поэтому вы сделали ammend-коммит. После этого вы поняли, что случайно затерли важный кусок кода когда сделали ammend.
 
-However, there is no previous version in the history - you have edited the last commit with `git commit --amend`.
+Как вам известно, `git commit --amend` затирает предыдущий коммит, поэтому вы не можете просто отменить его, так же как и не можете найти его в истории коммитов.
 
-Your goal is to find the first version of the commit in the repository. It must be somewhere...
+Ваша задача - найти первый коммит. Он же точно должен быть где-то..
 
-Once found, force the `commit-lost` branch to point at it again and verify the solution.
+После того как вы его найдете, поставьте на него ветку `commit-lost` и проверьте ваше решение с помощью `git verify`

@@ -1,6 +1,5 @@
-## Too many commits
+## Слишком много коммитов
+Вы работали над задачей и создали два коммита, внесли очень маленькие изменения. Вы не хотите испортить историю своего проекта, поэтому вы хотите сделать только один коммит, который содержит изменения, сделанные в последние два.
 
-You were working on an issue and created two commits introducing very small change. You don't want to mess up your
-project history so you want to make only one commit that contains changes made in the last two.
+Выполните `git log -2`, чтобы увидеть последние два коммита.
 
-Execute `git log -2` to see last two commits.

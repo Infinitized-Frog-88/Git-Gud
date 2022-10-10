@@ -1,8 +1,8 @@
-# Change branch history
-You were working on a regular issue while your boss came in and told you to fix recent bug in an application. Because your
-work on the issue hasn't been done yet, you decided to go back where you started and do a bug fix there.
+# Изменить историю веток
+Вы работали над обычной задачей, когда ваш босс пришел и сказал вам исправить недавний баг в приложении. Поскольку ваша
+работа над задачей еще не была завершена, вы решили откатиться туда, откуда начали, и исправить баг там.
 
-Your repository look like this:
+Ваш репозиторий выглядит так:
 
             HEAD
              |
@@ -14,8 +14,8 @@ Your repository look like this:
              |
          hot-bugfix
          
-Now you realized that the bug is really annoying and you don't want to continue your work without the fix you have made.
-You wish your repository looked like you started after fixing a bug.
+Теперь вы поняли, что баг вас сильно донимает, и вы не хотите продолжать свою работу без этого исправления. 
+Вы хотите, чтобы ваша история выглядела так:
 
                      HEAD
                       |
@@ -25,4 +25,4 @@ You wish your repository looked like you started after fixing a bug.
              |
          hot-bugfix
 
-Achieve that.
+Как это сделать?

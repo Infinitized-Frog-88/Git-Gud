@@ -1,10 +1,11 @@
-## Resolve a merge conflict
+## Разрешите merge-конфликт
 
-Merge conflict appears when you change the same part of the same file differently 
-in the two branches you're merging together. 
-Conflicts require developer to solve them by hand.
+Merge-конфликт возникает когда вы изменяете одну и ту же часть одного и того же файла по-разному
+в двух ветках которые вы пытаетесь смерджить
 
-Your repository looks like this:
+Разработчик должен разрешать конфликты вручную.
+
+Сейчас ваш репозиторий выглядит так:
 
             HEAD
              |
@@ -16,9 +17,9 @@ Your repository looks like this:
              |
     another-piece-of-work
          
-You want to merge the `another-piece-of-work` into your current branch. 
-This will cause a merge conflict which you have to resolve. 
-Your repository should look like this:
+Вам нужно смерджить `another-piece-of-work` в вашу текущую ветку. 
+Это создаст конфликт который вам нужно разрешить.
+В конце ваш репозиторий должен выглядеть так:
 
                      HEAD
                       |

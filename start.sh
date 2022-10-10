@@ -5,7 +5,7 @@ if [ "$(uname)" == "Darwin" ]; then
   if hash gshuf 2>/dev/null; then
     strings=( $(gshuf -e "${strings[@]}") )
   else
-    echo "Please, install coreutils from homebrew"
+    echo "Пожалуйста, установите coreutils из homebrew. (https://formulae.brew.sh/formula/coreutils)"
     exit 1
   fi
 else

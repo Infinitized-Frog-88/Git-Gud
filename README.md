@@ -1,7 +1,7 @@
-## Make the file executable by default
+## Сделайте файл исполняемым по умолчанию
 
-You have created a simple bash script in `script.sh`. However, when you check it out
-on Unix, it does not have required execute permissions so you can't launch it with
-`./script.sh` without performing `chmod +x script.sh` beforehand.
+Вы создали простой bash-скрипт в `script.sh`. Однако, когда вы проверяете его
+в Unix, у него нет необходимых разрешений на выполнение, поэтому вы не можете запустить его с помощью
+`./script.sh` без выполнения `chmod +x script.sh` заранее.
 
-Fix it by adding an executable bit for `script.sh` in Git history.
+Исправьте это, добавив бит исполняемого файла для `script.sh` в историю Git.
